@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Practice Restaurant</title>
+  </head>
+  <body
+    class="overflow-x-hidden snap-y snap-mandatory overflow-scroll h-screen w-screen"
+  >
+    <div
+      class="h-full w-full bg-[url('./assets/background/bg-1.svg')] bg-no-repeat bg-cover bg-center text-[#482673] snap-start"
+    >
+      <nav class="flex items-center justify-between px-20 py-3 snap-start">
+        <div class="container py-3 text-[#482673] font-bold text-xl">
+          <a href="#"> Practice Restaurant </a>
+        </div>
+        <div class="py-3 w-1/2">
+          <ul
+            class="flex items-center justify-between text-[#482673] font-medium text-bae"
+          >
+            <li
+              class="px-2 border-b-2 transition border-transparent hover:border-[#482673] hover:border-opacity-90"
+            >
+              <a href="#" class="">Home</a>
+            </li>
+            <li
+              class="px-2 border-b-2 transition border-transparent hover:border-[#482673] hover:border-opacity-90"
+            >
+              <a href="#" class="">About</a>
+            </li>
+            <li
+              class="px-2 border-b-2 transition border-transparent hover:border-[#482673] hover:border-opacity-90"
+            >
+              <a href="#" class="">Contact</a>
+            </li>
+            <li
+              class="px-2 border-b-2 transition border-transparent hover:border-[#482673] hover:border-opacity-90"
+            >
+              <a href="#" class="">Book Table</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- <div class="w-1/2 absolute bottom-0">
+        <img src="./Vector1.svg" alt="" />
+      </div> -->
+
+      <div class="hero flex items-center justify-between h-5/6 w-screen px-52">
+        <div class="text flex items-center justify-between w-1/2">
+          <div class="content py-5">
+            <h3 class="font-extrabold text-5xl pb-7">
+              Discover The Finest Tastes Only Over Here
+            </h3>
+            <p class="font-light pb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              ducimus consectetur magnam blanditiis dolorum assumenda dicta
+              reprehenderit laudantium perspiciatis cumque?
+            </p>
+            <div class="buttons flex">
+              <a href="#about">
+                <div
+                  class="btn bg-[#f6ebf4] shadow-md text-[#482673] hover:shadow-lg text-center h-10 w-40 mt-4 flex items-center justify-center cursor-pointer hover:scale-105 transition border-2 border-black border-opacity-5 rounded"
+                >
+                  <span class="mx-4"> Read More </span>
+                </div>
+              </a>
+              <a href="#form">
+                <div
+                  class="btn bg-[#482673] shadow- text-[#f6ebf4] h-10 w-40 mt-4 mx-4 flex items-center justify-center cursor-pointer hover:bg-[#321358] hover:shadow-lg hover:scale-105 transition rounded"
+                >
+                  <span class=""> Book A Seat </span>
+                  <span class="text-lg">&#8594;</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="img flex items-center justify-center w-1/2">
+          <img src="./assets/images/hero.svg" alt="" class="block w-2/3" />
+        </div>
+      </div>
+      <div class="down-arrow block relative top-4 h-10">
+        <span class="text-4xl block text-center animate-bounce">&#8595;</span>
+        <!-- <span
+          class="w-3 h-3 block border-b-2 border-r-2 border-[#482673] transform rotate-45 mx-auto animate-spin"
+        ></span>
+        <span
+          class="w-3 h-3 block border-b-2 border-r-2 border-[#482673] transform rotate-45 mx-auto animate-middle"
+        ></span>
+        <span
+          class="w-3 h-3 block border-b-2 border-r-2 border-[#482673] transform rotate-45 mx-auto animate-bottom"
+        ></span> -->
+      </div>
+    </div>
+
+    <div
+      class="h-full w-full snap-start bg-[url('./assets/background/bg-2.svg')] bg-[#f6ebf4] bg-cover bg-center text-[#482673] px-52"
+      id="about"
+    >
+      <div class="flex">
+        <div class="img w-1/2 h-screen flex items-center justify-center">
+          <img src="./assets/images/aboutUs.svg" class="h-1/3" alt="" />
+        </div>
+        <div class="w-1/2 h-screen flex items-center justify-center">
+          <div class="h-1/4">
+            <div class="title mb-10">
+              <h1 class="text-4xl font-bold">Our Story</h1>
+            </div>
+            <div class="para font-extralight">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo hic
+              quidem assumenda dolorum illum sed reiciendis! Et cum hic,
+              excepturi consequatur voluptatum totam repudiandae dolorem.
+              Voluptatum repellendus praesentium numquam id vitae labore vero
+              quasi eligendi quos. Quod maxime dicta tempora sequi doloribus
+              dolorem, fugiat est veniam sed mollitia, molestiae nostrum.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="relative -right-64 -top-48">
+        <img src="./Vector2.svg" alt="" />
+      </div> -->
+    </div>
+
+    <section
+      class="h-screen w-screen bg-[url('./assets/background/bg-3.svg')] bg-cover bg-center bg-[#fff] text-[#482673] px-52 snap-start"
+    >
+      <div class="flex">
+        <div class="w-1/2 h-screen flex items-center justify-center">
+          <div class="h-1/4 relative bottom-3">
+            <div class="title mb-10">
+              <h1 class="text-4xl font-bold">Why Choose Us?</h1>
+            </div>
+            <div class="para font-extralight">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo hic
+              quidem assumenda dolorum illum sed reiciendis! Et cum hic,
+              excepturi consequatur voluptatum totam repudiandae dolorem.
+              Voluptatum repellendus praesentium numquam id vitae labore vero
+              quasi eligendi quos. Quod maxime dicta tempora sequi doloribus
+              dolorem, fugiat est veniam sed mollitia, molestiae nostrum.
+            </div>
+          </div>
+        </div>
+        <div class="img w-1/2 h-screen flex items-center justify-center">
+          <img
+            src="./assets/images/why_choose_us.svg"
+            class="h-1/3 flex items-center justify-center"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- <div class="w-screen h-1/4 relative bottom-48 -left-52 overflow-hidden">
+        <img src="./Vector1.svg" alt="" />
+      </div> -->
+    </section>
+
+    <div
+      class="h-screen w-screen bg-[url('./assets/background/bg-2.svg')] bg-center bg-cover bg-[#f6ebf4] text-[#482673] px-40 snap-start"
+    >
+      <div class="title h-1/6 flex items-center justify-center">
+        <h1 class="text-4xl font-bold">Today's Special Menu</h1>
+      </div>
+      <div class="flex justify-between">
+        <div
+          class="max-w-sm rounded overflow-hidden shadow-lg group hover:shadow-xl hover:scale-105 hover:duration-700 transition cursor-pointer"
+        >
+          <img class="w-full" src="./assets/images/Poke bowl-pana.svg" />
+          <div
+            class="px-6 pb-4 translate-y-96 transform group-hover:translate-y-0 transition-all duration-500 ease-in-out"
+          >
+            <div class="font-bold text-xl mb-2">Japanese Meal</div>
+            <p class="text-gray-700 text-base pb-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+        <div
+          class="max-w-sm rounded overflow-hidden shadow-lg group hover:shadow-xl hover:scale-105 hover:duration-700 transition cursor-pointer"
+        >
+          <img
+            class="w-full"
+            src="./assets/images/Hamburger-rafiki.svg"
+            alt="Sunset in the mountains"
+          />
+          <div
+            class="px-6 pb-4 translate-y-96 transform group-hover:translate-y-0 transition-all duration-500 ease-in-out"
+          >
+            <div class="font-bold text-xl mb-2">Hamburger</div>
+            <p class="text-gray-700 text-base pb-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+        <div
+          class="max-w-sm rounded overflow-hidden shadow-lg group hover:shadow-xl hover:scale-105 hover:duration-700 transition cursor-pointer"
+        >
+          <img
+            class="w-full"
+            src="./assets/images/Poke bowl-rafiki.svg"
+            alt="Sunset in the mountains"
+          />
+          <div
+            class="px-6 pb-4 translate-y-96 transform group-hover:translate-y-0 transition-all duration-500 ease-in-out"
+          >
+            <div class="font-bold text-xl mb-2">Fish Noodles</div>
+            <p class="text-gray-700 text-base pb-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="relative -right-64 top-20">
+        <img src="./Vector2.svg" alt="" />
+      </div> -->
+    </div>
+
+    <div
+      class="h-screen w-screen bg-[#f6ebf4] text-[#482673] px-40 snap-start"
+      id="form"
+    >
+      <div class="title h-1/6 flex items-center justify-center">
+        <h1 class="text-4xl font-bold">Book A Table</h1>
+      </div>
+
+      <div class="block p-6 rounded-lg shadow-lg max-w-md mx-auto">
+        <form>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="form-group mb-6">
+              <input
+                type="text"
+                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-70 bg-[#f6ebf4] bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:border-blue-600 focus:outline-none"
+                id="fname"
+                aria-describedby="emailHelp123"
+                placeholder="First name"
+              />
+            </div>
+            <div class="form-group mb-6">
+              <input
+                type="text"
+                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-[#f6ebf4] bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:border-blue-600 focus:outline-none"
+                id="lname"
+                aria-describedby="emailHelp124"
+                placeholder="Last name"
+              />
+            </div>
+          </div>
+          <div class="form-group mb-6">
+            <input
+              type="email"
+              class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-[#f6ebf4] bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:border-blue-600 focus:outline-none"
+              id="email"
+              placeholder="Email address"
+            />
+          </div>
+          <div class="form-group mb-6">
+            <input
+              type="text"
+              class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-[#f6ebf4] bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:border-blue-600 focus:outline-none"
+              id="phone"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="grid grid-cols-2 gap-4">
+            <div class="form-group mb-6">
+              <input
+                id="time"
+                type="datetime-local"
+                placeholder="Date and Time"
+                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-[#f6ebf4] bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:outline-none"
+              />
+            </div>
+            <div class="form-group mb-6">
+              <input
+                id="seats"
+                type="number"
+                placeholder="Seats"
+                class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-[#f6ebf4] bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:border-blue-600 focus:outline-none"
+                min="1"
+                max="12"
+              />
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            id="submit"
+            class="w-full px-6 py-3 mt-3 bg-[#482673] text-white font-medium text-sm leading-tight uppercase rounded shadow-md hover:bg-[#482673] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#482673] active:shadow-lg transition duration-150 ease-in-out"
+            onclick="event.preventDefault();"
+          >
+            Book Table
+          </button>
+        </form>
+      </div>
+      <div
+        class="text-center pt-28 text-2xl font-semibold text-[#482673]"
+        id="bookingStatus"
+      ></div>
+    </div>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
